@@ -1,0 +1,63 @@
+.newPerson img {
+    width: 100%;
+    height: 100%;
+}
+
+.newPerson .allNewPerson {
+    padding: 50px 0 100px 0;
+}
+
+.newPerson .allNewPerson .card {
+    background: rgb(22 19 19) !important;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 1.0);
+    margin-bottom: 40px;
+}
+
+.newPerson .allNewPerson .card .card-body {
+    padding: 50px;
+}
+
+.newPerson .allNewPerson .card .card-body h5 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.newPerson .allNewPerson .card .card-body p {
+    color: var(--pColor);
+    line-height: 1.9;
+}
+
+.newPerson .allNewPerson .page {
+    display: flex;
+    justify-content: center;
+}
+
+.newPerson .allNewPerson #pagTwoDisplay {
+    display: none;
+}
+
+.newPerson .allNewPerson #pagThreeDisplay {
+    display: none;
+}
+
+.newPerson .allNewPerson .page ul {
+    display: flex;
+}
+
+.newPerson .allNewPerson .page ul li {
+    margin: 0 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: var(--pColor);
+    cursor: pointer;
+}
+
+.newPerson .allNewPerson .page ul .active {
+    background-color: #1d1c1c;
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+/* Vendors */
+@import url(./vendors/bootstrap.css);
+@import url(./vendors/bootstrap.min.css);
+@import url(./vendors/splide.min.css);
+/*  */
+
+@import url(./base/base.css);
+@import url(./layout/header.css);
+@import url(./pages/landing.css);
+@import url(./pages/about.css);
+@import url(./pages/products.css);
+@import url(./pages/shop.css);
+@import url(./pages/bloge.css);
+@import url(./layout/footer.css);

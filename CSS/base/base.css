@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --colorWite: #fff;
+    --pColor: rgb(196, 196, 196);
+    --tColor: rgb(227, 77, 0);
+    --backgroundOrang: linear-gradient(114deg, rgba(227, 77, 0, 1) 11%, rgba(242, 77, 43, 1) 84%);
+    --backgroundCard: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, .2) 20%, rgba(255, 255, 255, .5) 60%, rgba(255, 255, 255, 0));
+    --backroundGallery: rgba(22, 19, 19, .5)
+}
+
+body {
+    color: #fff !important;
+    background: #161313;
+    background-attachment: fixed;
+    color: rgba(196, 196, 196, alpha);
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button:focus:visited {
+    outline: none !important;
+    border: none;
+}

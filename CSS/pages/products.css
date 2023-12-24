@@ -1,0 +1,301 @@
+.lacalDisplay .lacalDisplayAll {
+    padding: 100px 0;
+}
+
+.lacalDisplay .lacalDisplayAll {
+    padding: 100px 0;
+}
+
+.lacalDisplay .lacalDisplayAll .imgg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lacalDisplay .lacalDisplayAll .imgLeft img {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.lacalDisplay .lacalDisplayAll .content {
+    padding: 0 0 0 30px;
+}
+
+.lacalDisplay .lacalDisplayAll .content h1 {
+    font-size: 40px;
+}
+
+.lacalDisplay .lacalDisplayAll .content h2 {
+    margin: 20px 0;
+}
+
+.lacalDisplay .lacalDisplayAll .content .info i {
+    font-size: 13px;
+    margin-right: 3px;
+}
+
+.lacalDisplay .lacalDisplayAll .content p {
+    color: var(--pColor);
+    margin: 30px 0;
+}
+
+.lacalDisplay .lacalDisplayAll .content span {
+    color: var(--pColor);
+    font-weight: 400;
+    /* margin-top: 10px; */
+    margin-right: 10px;
+}
+
+.lacalDisplay .lacalDisplayAll .content .name {
+    color: var(--pColor);
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.lacalDisplay .lacalDisplayAll .content .firstPrice {
+    margin-bottom: 25px;
+}
+
+.lacalDisplay .lacalDisplayAll .content .active {
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+    color: #000000;
+}
+
+.lacalDisplay .lacalDisplayAll .add {
+    margin-top: 30px;
+    padding: 0 0 0 30px;
+}
+
+.lacalDisplay .lacalDisplayAll .add .inp {
+    display: flex;
+}
+
+.lacalDisplay .lacalDisplayAll .add input {
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 0 0 0 15px;
+}
+
+.lacalDisplay .lacalDisplayAll .add .cc {
+    background-color: #1d1c1c;
+    color: #fff !important;
+    border-radius: 0;
+}
+
+.lacalDisplay .lacalDisplayAll .addToCard button {
+    width: 100%;
+    color: #fff;
+    background-color: #1d1c1c;
+    border: none;
+}
+
+.lacalDisplay .lacalDisplayAll .add .buyItNow {
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+
+.lacalDisplay .lacalDisplayAll .add .buyItNow button {
+    width: 100%;
+    color: #fff;
+    background: var(--backgroundOrang);
+    border: none;
+    padding: 11px;
+}
+
+.lacalDisplay .lacalDisplayAll ul li {
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.lacalDisplay .lacalDisplayAll ul li img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* tog */
+.tog .allTog {
+    padding: 0 0 100px 0;
+}
+
+.tog .titles .btn {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--pColor);
+    padding: 20px;
+    position: relative;
+}
+
+.tog .titles .btn:hover {
+    color: #fff;
+    transform: translateY(1000);
+}
+
+.tog .titles .btn::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(227 77 0);
+    z-index: 2;
+    transition: all .5s;
+}
+
+.tog .titles .btn:hover::after {
+    width: 100%;
+    transform: translateY(90);
+}
+
+
+.tog .titles .btn a {
+    color: var(--pColor);
+}
+
+.tog .titles {
+    border-bottom: 1px solid rgb(54 54 54);
+}
+
+.tog .titlesContent {
+    padding-left: 25px;
+}
+
+.tog #dis {
+    display: block;
+}
+
+.tog #disp {
+    display: none;
+}
+
+.tog .titlesContent h5 {
+    color: var(--pColor);
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.tog .titlesContent p {
+    color: var(--pColor);
+    line-height: 1.8;
+}
+
+.tog .titlesContent .one {
+    margin: 20px 0 40px 0;
+}
+
+/* comment */
+.comment .comments {
+    padding: 50px;
+    background-color: rgb(29 28 28);
+}
+
+.comment .comments h5 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.comment .comments {
+    padding: 50px;
+    background-color: rgb(29 28 28);
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.comment .comments .commentsTop {
+    padding-bottom: 50px;
+}
+
+.comment .comments .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(236 236 236);
+    padding-bottom: 20px;
+}
+
+.comment .comments .top a {
+    color: rgb(196 196 196);
+    border-bottom: 2px solid rgb(227 77 0);
+}
+
+.comment .comments .top a:hover {
+    color: rgb(227 77 0);
+}
+
+.comment .comments .commentBu {
+    display: none;
+}
+
+.comment .comments .displayy {
+    display: block !important;
+}
+
+.comment .comments .commentBu label {
+    color: var(--pColor);
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.comment .comments .commentBu input, textarea {
+    color: var(--pColor);
+    margin: 0 0 20px 0;
+    padding: 15px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 1.0);
+    display: block;
+    width: 100%;
+}
+
+.comment .comments .commentBu .submetComment {
+    display: flex;
+    justify-content: end;
+}
+
+.comment .comments .commentBu .submetComment button {
+    background: var(--backgroundOrang);
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+/* recommended */
+.recommended {
+    padding-bottom: 100px;
+}
+
+.recommended h1 {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+
+/*  */
+
+figure.zoom {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: -1px 5px 15px black;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+figure.zoom img:hover {
+    opacity: 0;
+}
+
+figure.zoom img {
+    transition: opacity 0.5s;
+    display: block;
+    width: 100%;
+}

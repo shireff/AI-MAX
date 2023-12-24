@@ -1,0 +1,281 @@
+.About {
+    position: relative;
+}
+
+.About .aboutLanding {
+    background-image: url(./../../Imgs/About/Bread_Crumb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+}
+
+.About .aboutLanding .aboutLandingTitle {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+}
+
+.About .aboutLanding h1 {
+    font-size: 50px;
+}
+
+/* ceo */
+.ceo .Ceo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.ceo .Ceo img {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.ceo .Ceo h5 {
+    color: var(--tColor);
+    background-color: rgb(54 54 54);
+    padding: 9px 17px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.ceo .Ceo h3 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 40px 0;
+    text-align: center;
+
+}
+
+.ceo .Ceo h6 {
+    margin-right: 5px;
+    font-weight: 200;
+}
+
+.ceo .Ceo h6 span {
+    color: var(--tColor);
+}
+
+/* future */
+.future .futureRight {
+    position: relative;
+    top: -23px;
+    left: 20px;
+}
+
+.future .futureRight h2 {
+    font-size: 43px;
+    font-weight: 500;
+}
+
+.future .futureRight p {
+    color: var(--pColor);
+    font-size: 16px;
+    margin: 35px 0 70px 0;
+}
+
+.future .futureRightInfo div {
+    margin: 0 0 20px 0;
+}
+
+.future .futureRightInfo div h1 span {
+    color: var(--tColor);
+}
+
+.future .futureRightInfo div span {
+    color: rgb(196, 196, 196);
+}
+
+.future .futureRightInfo .btn {
+    color: #fff;
+    background-color: #e34d00;
+    padding: 8px 25px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+/* HowWeDO */
+
+.HowWeDO .How {
+    padding: 100px 0;
+}
+
+.HowWeDO .How .up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.HowWeDO .How .up .h11 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.HowWeDO .How .up h5 {
+    color: var(--tColor);
+    background-color: rgb(54 54 54);
+    padding: 9px 17px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.HowWeDO .howDownUp {
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid #e34d00;
+
+}
+
+.HowWeDO img {
+    width: 180px;
+    height: 180px;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #e34d00;
+
+}
+
+.HowWeDO p {
+    color: var(--pColor);
+    padding: 15px 0;
+    margin: 0;
+}
+
+.HowWeDO h1 {
+    color: rgb(57 54 54);
+    margin-right: 10px;
+}
+
+.HowWeDO h1 span {
+    color: #e34d00;
+    font-weight: 100;
+    vertical-align: text-top;
+}
+
+/* team */
+.team .allTeam {
+    background-color: #1d1c1c;
+    padding-bottom: 100px;
+}
+
+.team .teamUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 80px 0;
+}
+
+.team .teamUp h5 {
+    color: var(--tColor);
+    background-color: rgb(54 54 54);
+    padding: 9px 17px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.team .card {
+    background-color: #1d1c1c;
+    text-align: center;
+    border: none;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 1.0);
+}
+
+.team .card h3 {
+    padding: 15px 0;
+}
+
+/* reviews */
+
+.reviews .reviewsUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.reviews .reviewsUp h5 {
+    color: var(--tColor);
+    background-color: rgb(29 28 28);
+    padding: 9px 17px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.reviews .reviewsDown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.reviews .reviewsDown img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.reviews .reviewsDown ul li {
+    margin-right: 20px;
+    position: relative;
+}
+
+.reviews .reviewsDown ul .off img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.reviews .reviewsDown ul .off::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    inset: 0;
+    background-color: #292a2db8;
+    z-index: 1;
+}
+
+.reviews .reviewsDown ul .main {
+    position: relative;
+    top: -35px;
+}
+
+.reviews .reviewsDown .imgs p {
+    text-align: center;
+}
+
+.reviews .reviewsDown .imgs p span {
+    color: var(--tColor);
+}
+
+.reviews .info {
+    text-align: center;
+}
+
+.reviews .info p {
+    width: 59ch;
+    margin: auto;
+    line-height: 2;
+    padding: 20px 0;
+    color: var(--pColor);
+    font-weight: 500;
+}
+
+.reviews .row .col-xl-3 {
+    padding: 0;
+}

@@ -1,0 +1,86 @@
+{
+  "popularProducts": [
+    {
+      "img": "./Imgs/shopApi/home/shop-hover-5.png",
+      "title": "Prime 3D Bottle",
+      "price": "$13.00"
+    },
+    {
+      "img": "./Imgs/shopApi/home/shop-hover-2.png",
+      "title": "The Masterpiece",
+      "price": "$10.00"
+    },
+    {
+      "img": "./Imgs/shopApi/home/shop-hover-1.png",
+      "title": "The Dark War",
+      "price": "$12.00"
+    },
+    {
+      "img": "./Imgs/shopApi/home/shop-hover-4.png",
+      "title": "Sparkle Square",
+      "price": "$13.00"
+    }
+  ],
+  "gallery": [
+    {
+      "img": "./Imgs/shopApi/imageGallery/tab-masonry3.png",
+      "title": "Dark Souls Castle",
+      "price": "$13.00"
+    },
+    {
+      "img": "./Imgs/shopApi/imageGallery/tab-masonry4.png",
+      "title": "Prehistoric Dinosaur",
+      "price": "$77.07"
+    },
+    {
+      "img": "./Imgs/shopApi/imageGallery/tab-masonry1.png",
+      "title": "Red Fox Baby",
+      "price": "$50.00"
+    },
+    {
+      "img": "./Imgs/shopApi/imageGallery/tab-masonry5.png",
+      "title": "Modern Garden",
+      "price": "$33.32"
+    },
+    {
+      "img": "./Imgs/shopApi/imageGallery/tab-masonry2.png",
+      "title": "New York City",
+      "price": "$30.00"
+    },
+    {
+      "img": "./Imgs/shopApi/imageGallery/2/home-tab-image-animal-1.jpg",
+      "title": "Humming Bird",
+      "price": "$10.12"
+    },
+    {
+      "img": "./Imgs/shopApi/imageGallery/2/home-tab-image-animal-2.jpg",
+      "title": "Robo Tortoise",
+      "price": "$14.80"
+    },
+    {
+      "img": "./Imgs/shopApi/imageGallery/2/home-tab-image-animal-3.jpg",
+      "title": "Smart Dog",
+      "price": "$20.00"
+    },
+    {
+      "img": "./Imgs/shopApi/imageGallery/2/home-tab-image-animal-4.jpg",
+      "title": "Wild Tiger",
+      "price": "$18.00"
+    },
+    {
+      "img": "./Imgs/shopApi/imageGallery/2/home-tab-image-animal-5.jpg",
+      "title": "Dinosaurs",
+      "price": "$13.00"
+    },
+    {
+      "img": "./Imgs/shopApi/home/shop-hover-1.png",
+      "title": "The Dark War",
+      "price": "$12.00"
+    },
+    {
+      "img": "./Imgs/shopApi/home/shop-hover-4.png",
+      "title": "Sparkle Square",
+      "price": "$13.00"
+    }
+  ]
+}
